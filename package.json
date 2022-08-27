@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "gh-pages": "^4.0.0",
+    "git": "^0.1.5",
+    "react-router-dom": "^6.3.0"
+  }
+}
