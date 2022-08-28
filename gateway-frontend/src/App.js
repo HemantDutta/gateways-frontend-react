@@ -11,6 +11,10 @@ import {UserResults} from "./Pages/UserResults";
 import {AdminHome} from "./Pages/AdminHome";
 import {AdminAddNewEvent} from "./Pages/AdminAddNewEvent";
 import {AdminParticipantList} from "./Pages/AdminParticipantList";
+import {UserParticipantProfile} from "./Pages/UserParticipantProfile";
+import {AdminScores} from "./Pages/AdminScores";
+import {AdminEventScores} from "./Pages/AdminEventScores";
+import {ParticipantsOrganizer} from "./Pages/ParticipantsOrganizer";
 
 
 function App() {
@@ -28,6 +32,10 @@ function App() {
                 <Route path={'/admin-home'} element={<AdminHome/>}/>
                 <Route path={'/admin-add-event'} element={<AdminAddNewEvent/>}/>
                 <Route path={'/admin-participant-list'} element={<AdminParticipantList/>}/>
+                <Route path={'/participant-profile'} element={<UserParticipantProfile/>}/>
+                <Route path={'/admin-scores'} element={<AdminScores/>}/>
+                <Route path={'/admin-event-scores'} element={<AdminEventScores/>}/>
+                <Route path={'/participants-organizer'} element={<ParticipantsOrganizer/>}/>
             </Routes>
         </BrowserRouter>
     );

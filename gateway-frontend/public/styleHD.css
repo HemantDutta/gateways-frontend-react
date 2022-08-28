@@ -482,6 +482,81 @@ main .gtParticipantTable table td {
 
 /*================================Participant List End=====================*/
 
+/*==========================================Participant Profile===============================*/
+
+main .gtDetailContainer {
+    margin-top: 4rem;
+    width: 86vh;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    row-gap: 50px;
+}
+
+main .gtDetailContainer h2{
+    color: white;
+    margin: 20px;
+    font-weight: lighter;
+}
+
+main .gtDetailContainer h3{
+    color: white;
+    margin: 20px;
+}
+/*==========================================Participant Profile End===============================*/
+
+/*===================================Specific Event Scores========================================*/
+
+main .gtEventScores table {
+    width: 86vh;
+    color: white;
+    margin-top: 2rem;
+}
+
+main .gtEventScores table th{
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+    text-align: left;
+
+}
+
+main .gtEventScores table td {
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+}
+
+main .gtEventScores table th:last-child {
+    text-align: right;
+}
+
+main .gtEventScores table td:last-child {
+    text-align: right;
+}
+
+main .gtTopScores {
+    margin-top: 3rem;
+}
+
+
+/*===================================Specific Event Scores End========================================*/
+
+/*=====================================Participant Organizer==================================*/
+
+main .gtParticipantTable .gtYesButton {
+    padding-inline: 10px;
+    border-radius: 2px;
+    color: black;
+    background: #D78627;
+}
+
+main .gtParticipantTable .gtNoButton {
+    padding-inline: 10px;
+    margin-left: 5px;
+    border-radius: 2px;
+    color: black;
+    background: white;
+}
+/*=====================================Participant Organizer End==================================*/
+
 /*================================Main ENd=================================*/
 
 /*=============================================upMain=========================================*/
