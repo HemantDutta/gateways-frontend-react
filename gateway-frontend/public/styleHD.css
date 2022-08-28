@@ -278,9 +278,36 @@ main .gtjoin-other-nrg {
     margin-bottom: 2rem;
 }
 
-rsTableDiv .resultTable table{
-    border: 1px solid #D78627;
+/*==========Result Table==============*/
+
+.rsTableDiv table{
+    border: 2px none #bbbbbb;
+    width: 86vh;
+    color: white;
+
 }
+
+.rsTableDiv table th{
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.rsTableDiv table td {
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+}
+
+.rsTableDiv table td:last-child {
+    text-align: right;
+}
+
+.rsTableDiv table th:last-child {
+    text-align: right;
+}
+
+/*==========Result Table==============*/
 
 /*================================Main ENd=================================*/
 
@@ -367,6 +394,18 @@ main .gtjoin-other {
     display: flex;
     margin-top: 150px;
 }
+
+/*============TOTAL COLLEGE SCORE===============*/
+main .gtTotalScore {
+    display: flex;
+    margin-top: 150px;
+    width: 86vh;
+}
+
+main .gtTotalScore .totalScore {
+    align-self: flex-end;
+}
+/*============TOTAL COLLEGE SCORE END===============*/
 
 main .gtjoin-other .gtRegNowBtn {
     background-color: #CBE5FF;

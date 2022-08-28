@@ -39,6 +39,12 @@ export const UserResults = () => {
                             </tr>
                         </table>
                     </div>
+                    {/*  Total College Score  */}
+                    <div className="gtTotalScore">
+                        <h1 className={"text-gtprimary"}>Your College Score</h1>
+                        <h1 className={"totalScore text-gtprimary"}>45/50</h1>
+                    </div>
+                    {/*  Total College Score End  */}
                 </main>
                 {/*  Right Side   */}
                 <div className="gtright">
