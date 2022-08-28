@@ -10,6 +10,7 @@ import {Schedule} from "./Pages/Schedule";
 import {UserResults} from "./Pages/UserResults";
 import {AdminHome} from "./Pages/AdminHome";
 import {AdminAddNewEvent} from "./Pages/AdminAddNewEvent";
+import {AdminParticipantList} from "./Pages/AdminParticipantList";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path={'/user-results'} element={<UserResults/>}/>
                 <Route path={'/admin-home'} element={<AdminHome/>}/>
                 <Route path={'/admin-add-event'} element={<AdminAddNewEvent/>}/>
+                <Route path={'/admin-participant-list'} element={<AdminParticipantList/>}/>
             </Routes>
         </BrowserRouter>
     );

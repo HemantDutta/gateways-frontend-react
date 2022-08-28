@@ -440,6 +440,48 @@ admain .gtjoin-other-nrg {
 
 /*=========================Admin Home End==============================*/
 
+/*================================Participant List=====================*/
+
+main .gtListHeader {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+}
+
+main .gtFilter {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+main .gtFilter h3 {
+    font-weight: lighter;
+}
+
+main .gtParticipantTable table {
+    /*border: 2px none #bbbbbb;*/
+    width: 100vh;
+    color: white;
+    margin-top: 2rem;
+}
+
+main .gtParticipantTable table th{
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+    text-align: left;
+
+}
+
+main .gtParticipantTable table td {
+    border: 2px solid #bbbbbb;
+    padding: 10px;
+}
+
+
+/*================================Participant List End=====================*/
+
 /*================================Main ENd=================================*/
 
 /*=============================================upMain=========================================*/

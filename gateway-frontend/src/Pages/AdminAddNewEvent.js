@@ -8,7 +8,7 @@ export const AdminAddNewEvent = () => {
                 <UserDashboardSidebar/>
                 <main>
                     {/*Hello Username*/}
-                    <h1 className={"text-gtprimary gt-hello"}>Hello *Username*</h1>
+                    <h1 className={"text-gtprimary gt-hello"}>Welcome Admin</h1>
                     <h1 className={"text-gtprimary gt-addNewEvent"}>Add a new event</h1>
                     {/*Add Event Form*/}
                     <div className="addEventForm">
