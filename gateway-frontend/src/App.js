@@ -8,6 +8,8 @@ import {UserUpdates} from "./Pages/UserUpdates";
 import {UserUpdateDetails} from "./Pages/UserUpdateDetails";
 import {Schedule} from "./Pages/Schedule";
 import {UserResults} from "./Pages/UserResults";
+import {AdminHome} from "./Pages/AdminHome";
+import {AdminAddNewEvent} from "./Pages/AdminAddNewEvent";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
                 <Route path={'/user-dashboard-update-details'} element={<UserUpdateDetails/>}/>
                 <Route path={'/schedule'} element={<Schedule/>}/>
                 <Route path={'/user-results'} element={<UserResults/>}/>
+                <Route path={'/admin-home'} element={<AdminHome/>}/>
+                <Route path={'/admin-add-event'} element={<AdminAddNewEvent/>}/>
             </Routes>
         </BrowserRouter>
     );

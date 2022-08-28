@@ -38,6 +38,15 @@
     grid-template-columns: 14rem auto 23rem;
 }
 
+.adGtcontainer {
+    display: grid;
+    width: 100vh;
+    margin: 0 auto;
+    background: #1C1C1E;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto;
+}
+
 body {
     font-family: 'Raleway';
     background: var(--gtcolor-background);
@@ -278,6 +287,18 @@ main .gtjoin-other-nrg {
     margin-bottom: 2rem;
 }
 
+/*============TOTAL COLLEGE SCORE===============*/
+main .gtTotalScore {
+    display: flex;
+    margin-top: 150px;
+    width: 86vh;
+}
+
+main .gtTotalScore .totalScore {
+    margin-left: 480px;
+}
+/*============TOTAL COLLEGE SCORE END===============*/
+
 /*==========Result Table==============*/
 
 .rsTableDiv table{
@@ -308,6 +329,116 @@ main .gtjoin-other-nrg {
 }
 
 /*==========Result Table==============*/
+
+/*=========================Admin Home==============================*/
+admain {
+    margin-left: 3rem;
+    margin-top: 3rem;
+
+
+}
+
+admain .cardButton {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    padding: 0.5rem 1.6rem;
+
+}
+
+admain .eventCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+admain .eventCards > div {
+    height: 350px;
+    width: 280px;
+    background: #D78627;
+    align-items: center;
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+admain .eventCards > div:hover {
+    box-shadow: none;
+    transform: scale(110%);
+
+}
+
+admain .gtAddEvent {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    width: 100vh;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+admain .gtAddEvent .gtAddEventBtn {
+    background-color: #CCFF28;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    align-self: center;
+
+}
+
+admain .eventButton {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: all 300ms ease;
+}
+
+admain .eventButton:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+admain .eventCard .cardText {
+    margin-top: 8rem;
+}
+
+admain .eventCard .cardButton {
+    margin-left: 3.5rem;
+}
+
+admain .gtjoin-other-nrg {
+    gap: 2.5rem;
+    margin-top: 5rem;
+    width: 86vh;
+}
+
+.gtCurrentEvents {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gt-adProfile {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.AdProfile {
+    display: flex;
+
+}
+
+/*=========================Admin Home End==============================*/
 
 /*================================Main ENd=================================*/
 
@@ -387,7 +518,7 @@ upmain .eventCard .cardButton {
     margin-left: 4.5rem;
     margin-top: 4rem;
 }
-/*=============================================upMain=========================================*/
+/*=============================================upMain END=========================================*/
 /*======================================Join Other Events=====================================*/
 
 main .gtjoin-other {
@@ -395,17 +526,7 @@ main .gtjoin-other {
     margin-top: 150px;
 }
 
-/*============TOTAL COLLEGE SCORE===============*/
-main .gtTotalScore {
-    display: flex;
-    margin-top: 150px;
-    width: 86vh;
-}
 
-main .gtTotalScore .totalScore {
-    align-self: flex-end;
-}
-/*============TOTAL COLLEGE SCORE END===============*/
 
 main .gtjoin-other .gtRegNowBtn {
     background-color: #CBE5FF;
@@ -454,6 +575,68 @@ main .gtjoin-other-nrg .gtRegNowBtn:hover {
 main .gt-yourEvents {
     margin-top: 80px;
     margin-bottom: 20px;
+}
+
+main .gt-addNewEvent {
+    margin-top: 4rem;
+}
+
+main .addEventForm {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 20px;
+    margin-top: 4rem;
+}
+
+main .addEventForm .gtFormRows {
+    margin-right: 100px;
+}
+
+main .addEventForm .full-width {
+    grid-column: 1/3;
+}
+
+main .addEventForm .gtFormRows label {
+    color: white;
+    font-weight: bolder;
+}
+
+main .addEventForm .gtFormRows input {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+main .addEventForm .full-width textarea {
+    padding: 5px;
+    grid-column: 1/3;
+    resize: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+main .addEventButton {
+    margin-top: 40px;
+
+}
+
+main .addEventButton button {
+    padding: 15px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #CCFF28;
 }
 
 
