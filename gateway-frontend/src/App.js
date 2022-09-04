@@ -15,6 +15,8 @@ import {UserParticipantProfile} from "./Pages/UserParticipantProfile";
 import {AdminScores} from "./Pages/AdminScores";
 import {AdminEventScores} from "./Pages/AdminEventScores";
 import {ParticipantsOrganizer} from "./Pages/ParticipantsOrganizer";
+import {Register} from "./Pages/Register";
+import {Login} from "./Pages/Login";
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
                 <Route path={'/admin-scores'} element={<AdminScores/>}/>
                 <Route path={'/admin-event-scores'} element={<AdminEventScores/>}/>
                 <Route path={'/participants-organizer'} element={<ParticipantsOrganizer/>}/>
+                <Route path={'/register'} element={<Register/>}/>
+                <Route path={'/login'} element={<Login/>}/>
             </Routes>
         </BrowserRouter>
     );
