@@ -64,7 +64,7 @@ export default function Navbar({ children }) {
                     className="nav-link"
                     href="#"
                     onClick={(e) => {
-                      navigate("/callForPapers/mainpage");
+                      navigate("/");
                     }}
                     style={{color:"white"}}
                   >
@@ -77,7 +77,7 @@ export default function Navbar({ children }) {
                     className="nav-link"
                     href="#"
                     onClick={(e) => {
-                      navigate("/Registration");
+                      navigate("/");
                     }}
                     style={{color:"white"}}
                   >
@@ -89,7 +89,7 @@ export default function Navbar({ children }) {
                     className="nav-link"
                     href="#"
                     onClick={() => {
-                      navigate("/committees");
+                      navigate("/");
                     }}
                     style={{color:"white"}}
                   >
