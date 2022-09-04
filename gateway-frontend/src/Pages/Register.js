@@ -35,14 +35,14 @@ export const Register  = () => {
             <div className="row m-0 p-0  ">
             <div className="row m-0 p-0 justify-content-center">
               <div className='col-md-9 col-12  m-0 p-0 mt-4' >
-                <h2> <center>Welcome To Gateways 2022 </center></h2>
-                <h3 style={{fontFamily:"KrossNeueGrotesk-Light"}} >
+                <h1> <center>Welcome To Gateways 2022 </center></h1>
+                <h2 style={{fontFamily:"KrossNeueGrotesk-Light"}} >
                  <center> Registration </center>
-                </h3>
+                </h2>
               </div>
             </div>
             <form>
-            <div className="row m-0 p-0  " >
+            <div className="row m-0 p-4  " >
               <div className="col-lg-12 m-2">
                 <label htmlFor="">Name</label>
                 <input
